@@ -76,6 +76,7 @@ function getOperator(oper) {
     }
 }
 
+
 function compute() {
    const disnum = document.getElementById('num-display');
    const answer = document.getElementById('answer');
