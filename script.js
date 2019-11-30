@@ -17,27 +17,6 @@ function divide(a,b) {
     return a / b;
 }
 
-function operate(oper) {
-    switch(oper) {
-        case oper == '+':
-            disnum.value += '+';
-            //return add(a,b);
-            break;
-        case oper == '-':
-            disnum.value += '-';
-            //return subtract(a,b);
-            break;
-        case oper == 'X':
-            disnum.value += 'X';
-            //return multiply(a,b);
-            break;
-        case oper == '%':
-            disnum.value += '%';
-            //return divide(a,b);
-            break;
-    }
-}
-
 function displayNumber(value) {
     const disnum = document.getElementById('num-display');
     switch(value) {
@@ -89,10 +68,10 @@ function getOperator(oper) {
             disnum.value += '-';
             break;
         case 'X':
-            disnum.value += 'X';
+            disnum.value += '*';
             break;
-        case '%':
-            disnum.value += '%';
+        case '/':
+            disnum.value += '/';
             break;
     }
 }
