@@ -1,1 +1,1 @@
-Calculator app
+World's Simplest Calculator
